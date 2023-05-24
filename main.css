@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', 'sans-serif';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.card-description h2{
+    font-weight: 400;
+}
+
+.nft-image{
+    width: 350px;
+    border-radius: 10px;
+}
+
+.card-photo{
+    display: flex;
+    justify-content: center;
+} 
+
+.text-gray{
+    color: hsl(215, 51%, 70%);
+}
+
+.text-clock{
+    color: hsl(215, 51%, 70%);
+}
+
+.text-eth{
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+.text-white{
+    color: white;
+}
+
+.card-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.card-author{
+    display: flex;
+    justify-content: left; 
+    align-items: center;
+    border-top: solid 2px hsl(215, 32%, 27%);
+    gap: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.author-image{
+    border-radius: 50%;
+    border: solid 2px white;
+    width: 30px;
+    height: 30px;
+}
+
+.card{
+    width: 350px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px 25px 20px 25px;
+    border-radius: 15px;
+    box-shadow:0 15px 15px 0 hsl(217, 80%, 11%)
+}
+
+.ethereum-container{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.floating{
+    animation: floatingAnimation 3s infinite;
+    
+}
+@keyframes floatingAnimation {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
